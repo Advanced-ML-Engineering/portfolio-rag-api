@@ -1,0 +1,7 @@
+fastapi>=0.115,<1
+pydantic>=2.7,<3
+pydantic-settings>=2.3,<3
+qdrant-client>=1.15,<2
+boto3>=1.34,<2
+# Pin this to the version your working Flask app uses (run `pip show g4f` there).
+g4f
